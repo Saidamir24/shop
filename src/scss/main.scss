@@ -1,0 +1,44 @@
+@import './fonts.scss';
+ 
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+.container {
+   max-width: 1440px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 20px;
+} 
+
+body{
+  font-family: "OpenSans";
+  background: #020b1111;
+
+}
+
+
+
+ .form {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+ }
+ input {
+   padding: 5px 15px;
+   border-radius: 20px 0 0 20px;
+   outline: none;
+ }
+
+
+

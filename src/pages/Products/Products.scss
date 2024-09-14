@@ -1,0 +1,157 @@
+.title{
+    text-align: center;
+    font-size: 35px;
+    line-height: 121%;
+    font-weight: 700;
+    margin: 80px;
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 30px;
+    &__item {
+        border-radius: 18px;
+        box-shadow: 18px 18px 36px 0 rgba(211, 209, 216, 0.25);
+background: #69626233;
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+position: relative;
+&-title {
+    text-align: center;
+    line-height: 121%;
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+}
+&-descr {
+    width: 100%;
+    margin: 20px;
+    width: 300px; 
+    line-height: 121%;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+&-price {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    line-height: 121%;
+    font-weight: 700;
+    color: red;
+}
+&-stock{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    line-height: 121%;
+    font-weight: 700;
+    color: black;
+}
+&-discount{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    z-index: 100;
+    line-height: 121%;
+    font-weight: 700;
+    font-size: 20px;
+    color: green;
+}
+&-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+&-link {
+  line-height: 121%;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+    }
+ 
+  } 
+
+  .item {
+    width: 500px;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 18px 18px 36px 0 rgba(211, 209, 216, 0.25);
+background: #69626233;
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 15px;
+position: relative; 
+  }
+
+  .item__left-box {
+    display: flex;
+    gap: 15px;
+    background: #69626233;
+    border-radius: 20px;
+    padding: 15px;
+  } 
+   .item__left-img {
+    // width: 50px;
+    // height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer; 
+  } 
+
+
+  .block {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+
+
+  .form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  input {
+    padding: 5px 15px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+   .search__sort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+   }
+  
+  
+
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+
+  
+.item__left{
+  margin-top: 90px;
+  max-width: 360px;
+  width: 100%;
+  img{
+    height: 360px;
+    width: 100%;
+object-fit: contain;
+  }
+}
+
